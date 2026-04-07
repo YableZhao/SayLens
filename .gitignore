@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+*.wav
+*.mp3
+*.flac
+!samples/*.wav
+.DS_Store
+*.pt
+*.bin
+*.safetensors

@@ -1,0 +1,33 @@
+[project]
+name = "speech-feedback"
+version = "0.1.0"
+description = "Real-time phoneme-level pronunciation feedback system"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0",
+    "torchaudio>=2.0",
+    "transformers>=4.30",
+    "phonemizer>=3.2",
+    "gradio>=4.0",
+    "numpy>=1.24",
+    "soundfile>=0.12",
+]
+
+[project.optional-dependencies]
+voice-cloning = [
+    "TTS>=0.22",
+]
+dev = [
+    "pytest>=7.0",
+    "ruff",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

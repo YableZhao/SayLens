@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "gradio-app",
+      "runtimeExecutable": "/Users/yable/Projects/speech-feedback/.venv/bin/python3",
+      "runtimeArgs": ["-m", "speech_feedback.app"],
+      "port": 7860
+    }
+  ]
+}
