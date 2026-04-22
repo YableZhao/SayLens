@@ -13,3 +13,7 @@ venv/
 *.pt
 *.bin
 *.safetensors
+
+# Local IDE/launcher config (contains machine-specific absolute paths)
+.claude/
+
